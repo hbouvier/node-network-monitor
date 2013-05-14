@@ -1,0 +1,28 @@
+{
+    "author"      : "Henri Bouvier",
+    "name"        : "node-network-monitor",
+    "description" : "Monitor Network Traffic Through StatsD",
+    "version"     : "0.0.1",
+    "repository"  : {
+        "type" : "git",
+        "url"  : "https://github.com/hbouvier/node-network-monitor.git"
+    },
+    "keywords": [
+        "monitor",
+        "statsd"
+    ],
+    "main" : "./lib/monitor.js",
+    "dependencies"         : {
+    },
+    "devDependencies"      : {
+    },
+    "optionalDependencies" : {
+    },
+    "engines"              : {
+        "node" : ">= 0.8.0"
+    },
+    "configuration"        : {
+        "statsd"     : "localhost",
+        "statsdport" : "3001"
+    }
+}
